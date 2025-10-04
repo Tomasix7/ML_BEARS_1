@@ -1,0 +1,18 @@
+/* плавное появление картинки */
+#previewImg {
+    opacity: 0;
+    transition: opacity 0.5s ease-in-out;
+  }
+  #previewImg.show {
+    opacity: 1;
+  }
+  
+  /* плавное появление результата */
+  #result {
+    opacity: 0;
+    transition: opacity 0.5s ease-in-out;
+  }
+  #result.show {
+    opacity: 1;
+  }
+  

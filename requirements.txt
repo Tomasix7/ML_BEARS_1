@@ -1,0 +1,6 @@
+flask
+fastai
+torch
+torchvision
+pillow
+gunicorn
